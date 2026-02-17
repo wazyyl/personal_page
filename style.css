@@ -1,82 +1,94 @@
-* { box-sizing: border-box; }
-
 body {
-  margin: 0;
-  font-family: Arial, sans-serif;
-  background: #0f172a;            /* тёмный фон */
-  color: #e5e7eb;
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    color: #000000;
+    margin: 0;
+    padding: 20px;
 }
 
 .center {
-  max-width: 900px;
-  margin: 40px auto;
-  padding: 24px;
-  background: #111827;            /* карточка */
-  border: 1px solid #253047;
-  border-radius: 16px;
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border: 1px solid #cccccc;
 }
 
 .nav {
-  display: flex;
-  gap: 10px;
-  flex-wrap: wrap;
-  margin-bottom: 20px;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #eeeeee;
 }
 
 .nav a {
-  text-decoration: none;
-  color: #e5e7eb;
-  background: #1f2937;
-  border: 1px solid #334155;
-  padding: 8px 12px;
-  border-radius: 10px;
-  transition: 0.15s;
+    text-decoration: none;
+    color: #0000ff;
+    margin-right: 15px;
+    font-size: 16px;
 }
 
 .nav a:hover {
-  background: #273244;
+    text-decoration: underline;
 }
 
 .nav a.active {
-  background: #3b82f6;
-  border-color: #3b82f6;
-  color: white;
+    font-weight: bold;
+    color: #000000;
 }
 
-h1 { margin: 0 0 6px; font-size: 34px; }
-h2 { margin: 0 0 16px; font-size: 20px; color: #cbd5e1; }
+h1 {
+    font-size: 28px;
+    margin: 0 0 10px 0;
+}
 
-p { font-size: 18px; line-height: 1.5; }
-li { font-size: 18px; margin: 6px 0; }
+h2 {
+    font-size: 20px;
+    margin: 0 0 15px 0;
+    color: #333333;
+}
+
+p {
+    font-size: 16px;
+    line-height: 1.4;
+    margin: 10px 0;
+}
+
+ul, ol {
+    margin: 10px 0;
+    padding-left: 20px;
+}
+
+li {
+    font-size: 16px;
+    margin: 5px 0;
+}
 
 .main-photo {
-  width: 100%;
-  max-width: 520px;
-  display: block;
-  margin: 16px 0;
-  border-radius: 14px;
-  border: 1px solid #334155;
+    width: 100%;
+    max-width: 400px;
+    display: block;
+    margin: 15px 0;
+    border: 1px solid #999999;
 }
 
 .memes-grid {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 12px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
 }
 
 .memes-grid a {
-  width: calc(50% - 6px);
+    width: 45%;
 }
 
 .memes-grid img {
-  width: 100%;
-  display: block;
-  border-radius: 12px;
-  border: 1px solid #334155;
+    width: 100%;
+    display: block;
+    border: 1px solid #999999;
 }
 
 .note {
-  margin-top: 12px;
-  color: #cbd5e1;
-  font-size: 16px;
+    margin-top: 15px;
+    color: #666666;
+    font-size: 14px;
 }
